@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+
+# Model artifacts (too large for git)
+model_output/
+
+# Training results
+results/
+
+# Dataset files
+data/raw/
+data/processed/
+data/unseen/
+
+# OS files
+.DS_Store
+Thumbs.db
